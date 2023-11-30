@@ -8,8 +8,8 @@ products = ["K1565_2017_ST7745", "T2432_2019_FE84",
 
 year = input("Search code for which year?:\n")
 
-#for-loop checks every list in the new list and
-# if it finds year giving by user, it prints matching product code:
+# for-loop checks every list in the new list and
+#  if it finds year giving by user, it prints matching product code:
 for product in products:
     item = product.split("_")
     if year == item[1]:
