@@ -1,7 +1,7 @@
 int_max_number = 0
 wrong_number = True
 
-#for-loop asks the user 5 times for input:
+# for-loop asks the user 5 times for input:
 for x in range(5):
     number = int(input("Give a number:\n"))
     if number > 0:

@@ -9,9 +9,9 @@ products = ["K1565_2017_ST7745", "T2432_2019_FE84",
 ordercode = input("Give the order code:\n")
 ordercode = ordercode.upper()
 
-#for-loop checks the new list for given by user order code and
-# when found adds the right product info to use_order list,
-# after it prints year of the right product:
+# for-loop checks the new list for given by user order code and
+#  when found adds the right product info to use_order list,
+#  after it prints year of the right product:
 for product in products:
     item = product.split("_")
     if ordercode == item[0]:
